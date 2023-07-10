@@ -9,12 +9,8 @@ import Foundation
 
 
 struct TaskItem: Codable{
-    var name : String?
-    var surname : String?
-    var isComplete: Bool = false
-    
-    enum CodingKeys: String, CodingKey {
-            case name
-            case surname
-        }
+    var name = ""
+    var surname = ""
+    var isComplete = false
+
 }
